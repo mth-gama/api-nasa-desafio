@@ -24,4 +24,7 @@ def response_estaplanetar():
     dados ={'confidencial':confidencial,'localizacao':loc,'expedicao':expExpedicao}
 
     return jsonify(dados)
-api.run(port=5000,host='localhost',debug=True)
+
+
+if __name__ == '__main__':
+    api.run()
