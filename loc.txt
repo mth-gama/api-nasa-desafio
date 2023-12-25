@@ -1,0 +1,3 @@
+Localizacao Atual: Coordenadas marcianas aproximadas de 15S, 175E.
+Condicoes Atmosfericas: Temperatura media de -55C, atmosfera composta principalmente de dioxido de carbono.
+Exploracao Robotica: Nossos rovers estao percorrendo a regiao, examinando formacoes rochosas, coletando amostras do solo marciano e analisando a composicao quimica.
