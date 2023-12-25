@@ -1,16 +1,16 @@
 from flask import Flask ,jsonify ,render_template
 
 
-api = Flask(__name__)
+app = Flask(__name__)
 
 
 
-@api.route('/')
+@app.route('/')
 def home():
     return render_template('index.html')
 
 
-@api.route('/confidencial')
+@app.route('/confidencial')
 def response_estaplanetar():
     with open('x.txt','r') as arquivoX:
         confidencial = arquivoX.read()
@@ -27,4 +27,4 @@ def response_estaplanetar():
 
 
 if __name__ == '__main__':
-    api.run()
+    app.run()
